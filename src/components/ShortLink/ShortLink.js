@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 import { Button } from '../../globalStyles'
 import {ShortLinkContainer,Form,FormInput,ShortLinkWrapper,
        ShortLinkHistory,ShortLinkItem,OriginalLink,NewLink ,CopyButton,EmptyInput} from './ShortLink.elements';
@@ -24,7 +24,7 @@ const ShortLink = () => {
             setError(false);
             const response=await fetch('https://api.shrtco.de/v2/shorten?url='+value)
             const data=await response.json();
-            console.log(data);
+            
             setLoading(false);
            
         if(data.ok){
@@ -62,6 +62,7 @@ const ShortLink = () => {
             }
             else
                 item.copied=false;
+            return "";
         })
         setUrls(temp);
     }

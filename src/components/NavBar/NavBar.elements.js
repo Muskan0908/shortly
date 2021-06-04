@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 import {Container} from '../../globalStyles'
-import { FaMagento } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import logo from '../../images/logo.svg';
 
 export const Nav =styled.nav`
     background: #fff;

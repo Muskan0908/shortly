@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import { Nav, NavbarContainer, NavLogo, NavIcon, MobileIcon,
+import { Nav, NavbarContainer, NavLogo,  MobileIcon,
         NavMenu,NavItem,NavLinks,NavItemBtn,NavBtnLink,NavPages} from './NavBar.elements';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';

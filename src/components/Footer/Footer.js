@@ -6,16 +6,12 @@ import {
   FaFacebook,
   FaInstagram,
   FaTwitter,
-  FaLinkedin,
   FaPinterest
 } from 'react-icons/fa';
 import {
   FooterContainer,
   FooterSubscription,
-  FooterSubText,
   FooterSubHeading,
-  Form,
-  FormInput,
   FooterLinksContainer,
   FooterLinksWrapper,
   FooterLinkItems,
@@ -24,8 +20,6 @@ import {
   SocialMedia,
   SocialMediaWrap,
   SocialLogo,
-  SocialIcon,
-  WebsiteRights,
   SocialIcons,
   SocialIconLink
 } from './Footer.elements';
